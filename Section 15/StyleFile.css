@@ -1,0 +1,23 @@
+.classNameInCSSFile
+{
+	color: blue;
+	border: 10px solid red;
+}
+
+.AnotherClass
+{
+	color: orange;
+	border: 20px solid black;
+}
+
+.first-class
+{
+	color: #3F51B5;
+	border: 40px solid #8BC34A;
+}
+
+div 
+{
+	margin: 100px auto;
+	width: 272px;
+}

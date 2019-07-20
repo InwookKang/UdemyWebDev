@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise3</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+		<!-- First Name, Last Name -->
+		<label>
+		First Name: 
+			<input type="text" name="firstName" placeholder=" Your Name" required>
+		</label>
+		<label>
+			Last Name: 
+			<input type="text" name="lastName" placeholder="Your Name" required>
+		</label>
+		<br>
+		<!-- Gender -->
+		<label>
+			Male
+			<input type="radio" name="gender" value="MALE">
+		</label>
+		<label>
+			Female
+			<input type="radio" name="gender" value="FEMALE">
+		</label>
+		<label>
+			Other
+			<input type="radio" name="gender" value="OTHER">
+		</label>
+		<br>
+		<!-- Email, Password -->
+		<label>
+			Email:
+			<input type="email" name="email" placeholder="Your Email" required>
+		</label>
+		<label>
+			Password:
+			<input type="password" name="password" placeholder="Password" required title="5 to 10 characters" pattern=".{5,10}" >
+		</label>
+		<br>
+		<!-- Birthday: -->
+		<label>
+			Birthday:
+			<select name="month">
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+				<option>Apr</option>
+				<option>May</option>
+				<option>Jun</option>
+				<option>Jul</option>
+				<option>Aug</option>
+				<option>Sep</option>
+				<option>Oct</option>
+				<option>Nov</option>
+				<option>Dec</option>
+			</select>
+		</label>		
+		<select name="day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+		</select>
+	
+		<select name="year">
+			<option>Year</option>
+			<option>1991</option>
+			<option>1992</option>
+			<option>1993</option>
+			<option>1994</option>
+			<option>1995</option>
+			<option>1996</option>
+		</select>
+		<br>
+		<!-- Agreement -->
+		<label>
+			I agree to the terms and conditions
+			<input type="checkbox" name="agreement">
+		</label>
+		<br>
+		<!-- Submit Button -->
+		<input type="Submit" name="submit">
+	</form>
+	
+</body>
+</html>

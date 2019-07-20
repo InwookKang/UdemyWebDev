@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Grid Project</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="Gallery.css">
+</head>
+<body>
+	
+	<!-- NavBar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+		        <!-- data-target attribute handles the clicking event -->
+		        <!-- The '#' should be placed infront of the id that is being referenced -->
+		        <!-- it should match with the "id" of the contents that would like to be shown -->
+			  	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+		          <!-- This is the part where the Three Bars for Menu button comes from -->
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		        </button>
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Images</a>
+			</div>      
+
+			
+	      <!-- Note that the "id" matches with the data-target attribute -->
+	      <!-- Everything inside of this div will be collaped -->
+	      <!-- Anything outside wiÍll be just inside the navbar and will not be hidden when the size of the webpage gets small -->
+			<div class="collapse navbar-collapse" id="bs-nav-demo">				
+				<ul class="nav navbar-nav navbar-right">
+		            <ul class="nav navbar-nav">
+		           	 	<li><a href="#">About</a></li>
+		            	<li><a href="#">Contact</a></li>
+	            	</ul>
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Login</a></li>
+		  		</ul>
+			</div>
+		</div>
+	</nav>	
+
+	<div class="container">
+		<div class="jumbotron"> 
+			<h1><i class="far fa-hand-peace"></i> The Image Gallery</h1>
+			 <p>A bunch of beautiful images that I didn't take (except for the first one!)</p>
+		</div>
+
+		 <!-- Image Gallery Start -->
+		<div class="row">
+			<div class="col-lg-4 col-xs-6">
+				<div class="thumbnail">
+					<img class="image" src="https://pixabay.com/get/ea31b50e2ef3023ed1534705fb094f92e07ee1d61aac104496f1c770a5ecb0b1/rustic-3441673_1920.jpg">
+				</div>				
+			</div>
+			<div class="col-lg-4 col-xs-6">
+				<div class="thumbnail">
+					<img class="image" src="https://pixabay.com/get/ea31b50e2ef3023ed1534705fb094f92e07ee1d61aac104496f1c770a5ecb0b1/rustic-3441673_1920.jpg">
+				</div>				
+			</div>
+			<div class="col-lg-4 col-xs-6">
+				<div class="thumbnail">
+					<img class="image" src="https://pixabay.com/get/ea31b50e2ef3023ed1534705fb094f92e07ee1d61aac104496f1c770a5ecb0b1/rustic-3441673_1920.jpg">
+				</div>				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-xs-6">
+				<div class="thumbnail">
+					<img class="image" src="https://pixabay.com/get/ea31b50e2ef3023ed1534705fb094f92e07ee1d61aac104496f1c770a5ecb0b1/rustic-3441673_1920.jpg">
+				</div>				
+			</div>
+			<div class="col-lg-4 col-xs-6">
+				<div class="thumbnail">
+					<img class="image" src="https://pixabay.com/get/ea31b50e2ef3023ed1534705fb094f92e07ee1d61aac104496f1c770a5ecb0b1/rustic-3441673_1920.jpg">
+				</div>				
+			</div>
+			<div class="col-lg-4 col-xs-6">
+				<div class="thumbnail">
+					<img class="image" src="https://pixabay.com/get/ea31b50e2ef3023ed1534705fb094f92e07ee1d61aac104496f1c770a5ecb0b1/rustic-3441673_1920.jpg">
+				</div>				
+			</div>
+		</div>
+		<div class="row"> 
+			<div class="col-lg-4 col-xs-6">
+				<div class="thumbnail">
+					<img class="image" src="https://pixabay.com/get/ea31b50e2ef3023ed1534705fb094f92e07ee1d61aac104496f1c770a5ecb0b1/rustic-3441673_1920.jpg">
+				</div>				
+			</div>
+			<div class="col-lg-4 col-xs-6">
+				<div class="thumbnail">
+					<img class="image" src="https://pixabay.com/get/ea31b50e2ef3023ed1534705fb094f92e07ee1d61aac104496f1c770a5ecb0b1/rustic-3441673_1920.jpg">
+				</div>				
+			</div>
+			<div class="col-lg-4 col-xs-6">
+				<div class="thumbnail">
+					<img class="image" src="https://pixabay.com/get/ea31b50e2ef3023ed1534705fb094f92e07ee1d61aac104496f1c770a5ecb0b1/rustic-3441673_1920.jpg">
+				</div>				
+			</div>
+		</div>
+
+	</div>	
+</body>
+</html>

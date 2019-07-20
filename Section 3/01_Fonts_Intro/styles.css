@@ -1,0 +1,52 @@
+/*font-family*/
+
+/*Use the family name in the href*/
+p
+{
+	font-family: Roboto;	
+}
+
+h1
+{
+	font-family: Roboto;	
+}
+
+/*font-size*/
+h1{
+	font-size: 50px;
+}
+
+/*Makes the font size to be double the parent element*/
+em
+{
+	font-size: 2.0em
+}
+
+/*font-weight*/
+p
+{
+	font-weight: bold;
+}
+
+/*line-height*/
+/*spacing between lines*/
+p
+{
+	line-height: 2; 
+}
+
+/*text-align*/
+
+h1
+{
+	text-align: center;
+}
+
+/*text-decoration*/
+/*underline, strikethrough, overline*/
+
+p
+{
+	text-decoration: underline;
+}
+

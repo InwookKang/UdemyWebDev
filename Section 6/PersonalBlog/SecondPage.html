@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inwook's Second Page</title>
+</head>
+<body>
+	<h1>This Will be Inwook's Second Page</h1>
+
+	<!-- form (Block Level Element) governs the user input interactions -->
+	<!-- Usually the data entered will be sent to server(Backend) -->
+	<!-- Attribute: action - where the form send data to -->
+	<!-- Attribute: method - what HTTP method (get/post) Default method will be a GET request  -->
+	<!-- The difference between wrapping the inputs in to a form and not is that when all the inputs are filled and enter key is pressed, the page will refresh -->
+	<form action="https://www.instagram.com/ikang_ed/" method="get">
+		<!-- input tag are the different widgets that user can input their information -->
+		<!-- Different attributes will make different forms of input methods -->
+		<!-- placeholder is used to have a temporary text in the textbox -->
+		<!-- Attribute: id - used to identify widgets -->
+		<label>
+			<!-- label tag is used exactly like the label widget in .Net -->
+			Email: 
+			<!-- required Attribute will indiate that this field will need to be filled -->
+			<input id="Email" type="email" placeholder="Email" required> 
+		</label>
+		<!-- You can also target a widget by their id -->
+		<label for="Password">Password: </label>
+		<input id="Password" type="password" placeholder="Password" required> 
+		<!-- Another way of having button -->
+		<!-- type Submit will actually POST the input  -->
+		<!-- If the last input is button then it will also submit the input -->
+		<input type="Submit">
+		
+
+		<p>Gender: </p>
+		
+		<label>
+			Male
+			<!-- Attribute name - used for get/post HTTP requests. They are used to make user make only use only one. They are used like variables -->
+			<!-- Attribute value - used to set the value to name attribute for submittion -->
+			<input name="genderChoice" id="male" type="radio" value="MALE" required>
+		</label>
+		<label>
+			Female
+			<input name="genderChoice" id="female" type="radio" value="FEMALE" required>
+		</label>
+		
+		<p>Suffix: </p>
+		<label>
+			 
+			<select name="suffix" required>
+				<option></option>
+				<option value="MALEADULT">Mr.</option>
+				<option value="FEMALEUNMARRIED">Ms.</option>
+				<option value="FEMALEMARRIED">Mrs.</option>
+			</select>
+		</label>	
+
+		<p>Bio:</p>
+
+		<!-- Textarea is a multiline textbox -->
+		<!-- Attribute row and cols are used to specify  -->
+		<!-- value of this tag will be what the user inputs -->
+		<textarea name="Biography" rows="5" cols="5"></textarea>
+
+		<p></p>
+		<button>Sign Up</button>
+	</form>
+
+	
+	
+</body>
+</html>

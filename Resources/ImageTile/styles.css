@@ -1,0 +1,24 @@
+img
+{
+	width: 30%;
+	height: 300px;
+	float: left;
+	/*Because we are using 3 imgs it will take up 90% of the 
+	  page. Remaining 10% will be used for margins. 
+	  Calculating Margins will be with 3 imgs and each img has
+	  2 sides, it will be 10 / 6 = 1.66*/
+ 	
+ 	margin: 1.66%;	  
+}
+
+h1
+{
+	font-family: Roboto;
+	margin-left: 1.66%;
+	font-weight: 800;
+	font-size: 23px;
+	text-transform: uppercase;
+	border-bottom: 1px solid red;
+	padding-bottom: 20px;
+	width: 30%
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap_Grid</title>
+
+	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<style type="text/css">
+		.pink
+		{
+			background: pink;
+			border: 1px solid purple;
+			text-align: center;
+		}
+		.black
+		{
+			border: 1px solid black;
+		}
+		.divider
+		{
+			border-right: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- NavBar -->
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+		        <!-- data-target attribute handles the clicking event -->
+		        <!-- The '#' should be placed infront of the id that is being referenced -->
+		        <!-- it should match with the "id" of the contents that would like to be shown -->
+			  	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+		          <!-- This is the part where the Three Bars for Menu button comes from -->
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		        </button>
+				<a href="#" class="navbar-brand">Images</a>
+			</div>      
+
+	      <!-- Note that the "id" matches with the data-target attribute -->
+	      <!-- Everything inside of this div will be collaped -->
+	      <!-- Anything outside wiÍll be just inside the navbar and will not be hidden when the size of the webpage gets small -->
+			<div class="collapse navbar-collapse" id="bs-nav-demo">				
+				<ul class="nav navbar-nav navbar-right">
+		            <ul class="nav navbar-nav">
+		           	 	<li><a href="#">About</a></li>
+		            	<li><a href="#">Contact</a></li>
+	            	</ul>
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Login</a></li>
+		  		</ul>
+			</div>
+		</div>
+	</nav>	
+
+	<!-- Within each container there are maximum of 12 columns -->
+	<!-- IMPORTANT: It is important that each element uses a certain portion of maximum column -->
+
+	<div class="container black">
+		
+
+		<div class="row">
+			<!-- The number in the class means that it will utilize that many number of columns -->
+			<!-- There are 4 different sizes for columns. These determine when the columns start to stack -->
+			<!-- 4 sizes are xs, sm, md and lg -->
+			<!-- Adding mulitple col classes to an attribute will enable for it to have same number of columns even with different page size -->
+			<div class="pink col-md-3 col-sm-6">Item1</div>
+			<div class="pink col-md-3 col-sm-6">Item2</div>
+			<div class="pink col-md-3 col-sm-6">Item3</div>
+			<div class="pink col-md-3 col-sm-6">Item4</div>
+			
+		</div>
+		<!-- Nested grids -->
+		<div class="row">
+				<div class="pink col-md-3 col-sm-6">
+					<div class="row">
+						<div class="col-md-6 divider">Front</div>
+						<div class="col-md-6">Back</div>
+					</div>
+				</div>
+				<div class="pink col-md-3 col-sm-6">Cafe</div>
+				<div class="pink col-md-3 col-sm-6">Frap</div>
+				<div class="pink col-md-3 col-sm-6">Latte</div>
+			</div>
+	</div> 
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

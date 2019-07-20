@@ -1,0 +1,147 @@
+<!DOCTYPE html> <!-- html + tab will give you this boiler plate for html -->
+<html> <!-- Represents the root of the HTML Document -->
+<head> <!-- Provides General Info about document --> 
+	
+	<link rel="stylesheet" type="text/css" href="Bootstrap.css">
+
+	<!-- MetaData (Things that you cannot see on the Web Page) goes here -->
+	<!-- Things like Description of Html Document -->
+	<!-- CSS references -->
+	<!-- Definitions of Scripts -->
+	<!-- Links to icons -->
+	<!-- Note: Line Comment can be done with 
+	Command + / -->
+	
+	<title>Inwook's First Page</title> <!-- Title will show up on the tabs on Chrome and it will be important for Google Searches -->
+	
+	<!-- This is where CSS statements go, but CSS statements should not be inside HTML file. (Seperation of Concerns) -->
+	<!-- Link the CSS file that this HTML file will use -->
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap.css">
+	
+</head>
+<body> 
+	
+	<div class="container" id="mainContainer">
+		<div class="jumbotron">
+			<!-- Contents of html -->
+			<!-- Each Heading is a Block Level Element -->
+			<!-- Meaning, the they each have their own line -->
+			 <!-- Largest Heading and the most important. There are total of 6 -->
+			<h1>Inwook Kang's Blog</h1>
+
+			<!-- img is a self closing tag that doesn't need a closing tag -->
+			<!-- Local image files can be included by first opening them with safari then copying the link to the src -->
+			<!-- Attributes are Key/Value pairs that are used to include references -->
+			<img class="imgMiniMe" src="file:///Users/jSonKang/Pictures/BabyMe.jpg">
+			<div>
+				<!-- div (Block Level Element) is a generic group box that groups elements together -->
+				<!-- This can be used to style the inside div -->
+				<h2>Web Development First Day</h2>
+				<h3>
+					<!-- Anchoring Local files just needs to have the file name with html extension -->
+					<!-- This is a relative path, meaning that its relative to the this html file -->
+					<a href="SecondPage.html">Jun 9, 2018</a>
+				</h3>
+			</div>
+			
+
+			<!-- Paragraph Tag is also Blocking Level -->
+			<!-- Strong Tag is Inline Element (Symantic Markup) -->
+			<!-- Em (Emphasis) Tag is used to Italic -->
+			<p>Learning about HTML antonomy</p>
+			<p>I am currently doing my Laundry and Learning about <em>HTML</em> using <strong>Udemy</strong>. So far, I am liking the course. It is going at a good pace. Things I got done this morning: </p>
+
+			<!-- Ordered List -->
+			<!-- By itself it is nothing. It needs list elements in it -->
+			<ol>
+				<li>Dishes (Been in the sink for two days...)</li>
+				<li>Got Change for Laundry</li>
+				<li>Got <em>Best Bagel in Town</em>(Club Turkey BLT) wasn't too bad.</li>
+				<li>Found <strong>$40</strong> in my bag!</li>
+			</ol>
+			<!-- span (Inline Level Element) is a generic group box for inline -->
+			<p>My <span>Girlfriend is moving today</span> and I feel bad for not being able to help her. Since I'm at Binghamton, NY, it is hard to me to see her often now. :( Somethings that I Plan on doing today: </p>
+			<!-- Unordered List -->
+			<!-- a (Inline Level Element) is called anchor tag. Text inside becomes a hyperlink -->
+			<!-- The link needs to include http://. Otherwise it will be think it is a local file. -->
+			<ul>
+				<li>Dinner with <a href="http://www.uic.com">UIC</a> co-workers</li>
+				<li>Make Kimchi Chigae</li>
+				<li>Clean House a bit more
+					<!-- You can also do List inside a List -->
+					<ul>
+						<li>Take out Garbage</li>
+						<li>Wipe down some dust</li>
+						<li>Clean out Computer Desk</li>
+					</ul>
+				</li>
+			</ul>
+
+			<p>Well, since this is my first Web Page for my "Blog", I will include many HTML tags within this page. Below is using HTML Table tag: </p>
+			<h3>Front End And Back End Sthuffs</h3>
+			<!-- Table tag creates a table and will need tr (Row), th (Column Name), td (Data) tags to create a table -->
+			<table border="1">
+				<!-- thead and tbody (HTML5) are used to disquinish between table header and table body -->
+				<thead>
+					<tr>
+						<th>Front End</th> <!-- Table Header  -->
+						<th>Back End</th>			
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>HTML</td>
+						<td>PHP</td>
+					</tr>
+					<tr>
+						<td>CSS</td>
+						<td>Database</td>
+					</tr>
+					<tr>
+						<td>JavaScript</td>
+						<td>Algorithms</td>
+					</tr>
+					<tr>
+						<td> </td>
+						<td>Queries</td>
+					</tr>
+				</tbody>		
+			</table>
+
+		<!-- 6/10/2018 -->
+			<div>
+				<!-- div (Block Level Element) is a generic group box that groups elements together -->
+				<!-- This can be used to style the inside div -->
+				<h2>Web Development Second Day</h2>
+				<h3>
+					<!-- Anchoring Local files just needs to have the file name with html extension -->
+					<!-- This is a relative path, meaning that its relative to the this html file -->
+					<a href="thridpage.html">Jun 10, 2018</a>
+				</h3>
+			</div>
+
+			<p>So to quickly recap, yesterday I have finished my course on HTML and now I will be moving on to Lecture 41 in Section 5. This Unit will be on CSS and integrating CSS with HTML. If we were to compare HTML, CSS and Javascript with english language, HTML will be like our "nouns", CSS will be like our "adjectives" and Javascript will be like "verbs"</p>
+			
+			<p>Below are the sections that will be covered: </p>
+			<ul>
+				<li>Define the "General Rule" of CSS</li>
+				<li>Correctly include CSS in your HTML files</li>
+				<li>Select Elements by tag name, class and ID</li>
+				<li>Style elements with basic properties like color and background</li>
+				<li>Use Chrome CSS Inspector to debug HTML and CSS</li>
+				<li>Exercise: CSS Selector Scavenger Hunt</li>
+			</ul>
+
+			<p>CSS Selectors</p>
+			<ul>
+				<li>Element (ex. h1, p, li)</li>
+				<li>ID</li>
+				<li>Class</li>
+			</ul>
+		</div>
+	</div>
+	
+</body>
+</html>
+

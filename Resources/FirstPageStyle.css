@@ -1,0 +1,33 @@
+/*Comments are like this in CSS*/
+/*Seletor, property and value is the format for CSS*/
+/*When there are conflicitng Selectors, CSS will take the property and value of the last*/
+body
+{
+	/*
+		background is used to chagne the selector's background
+		background: rgb( ); for color
+		background: url(); for an image from url
+		background-repeat: no-repeat; for an image that you dont want repeated. Default. It will create Tiles of the image if its too small
+	*/
+	background: url("firstpageBackground.jpg");
+}
+h1
+{	/*
+		border is used to create a border around the selector. 
+		parameters: border thickness, style of border, color; 
+	*/ 
+	border: 2px solid #111;
+	color: black;
+}
+
+li
+{
+	/*Hexadecimal Color*/
+	color: #FFFFFF;
+}
+p
+{
+ 	/*RGB*/
+	color: rgb(255, 255, 255);
+}
+

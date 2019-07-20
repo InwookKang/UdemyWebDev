@@ -1,0 +1,31 @@
+p
+{
+	/*Width/Height*/
+	/*50% of Parent Element*/
+	width:	50%;  
+	height: 50%;
+
+	/*Border*/
+	border: 2px solid blue;
+
+	/*Padding*/
+	/*Padding on all sides*/
+	/*padding: 10px*/
+	/*Padding on only one side*/
+	/*Space inside the border*/
+	padding-left: 40px;
+
+	/*Margin*/
+	/*Space on the outside of border. Between Elements.*/
+	/*This will be for all sides*/
+	/*margin: 100px;*/
+	/*This will be a short cut for setting all four sides*/
+	/*top, right, bottom left*/
+	/*margin: 20px 40px 60px 100px;*/
+	/*auto will center an element*/
+	/*margin: 0 auto 0 auto;*/
+	/*This will set the Top and Bottom margin to be 0.
+	Left and Right will be set to Auto*/
+	margin: 0 auto;
+
+}

@@ -1,0 +1,42 @@
+
+.BlogBody
+{
+	font-family: Source Sans Pro;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 20px;
+	max-width: 700px;
+	border: 20px solid #bdc3c7;
+}
+
+.BlogPost
+{
+	margin: 20px;
+}
+
+hr.style
+{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.Date
+{
+	color: #3498db;
+	text-transform: uppercase;
+	/*rem - relative to the ROOT. As oppose to em which 
+	is relative to PARENT element.*/
+	letter-spacing: .3rem;
+	font-size: 10px;
+}
+
+.Intro
+{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 3px;
+	margin: auto;
+}
+
+6156 6821 5617 8587
+90458504  
